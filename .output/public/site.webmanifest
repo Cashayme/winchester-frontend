@@ -1,0 +1,36 @@
+{
+  "name": "Winchester Ascendancy - Gestionnaire de Coffres",
+  "short_name": "Winchester Ascendancy",
+  "description": "Système de gestion avancé pour vos coffres et inventaires avec une interface moderne et steampunk.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#7a1f1f",
+  "orientation": "portrait-primary",
+  "categories": ["productivity", "business"],
+  "lang": "fr",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "16x16 32x32 48x48",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
