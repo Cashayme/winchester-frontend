@@ -1,0 +1,16 @@
+# Robots.txt pour Winchester Ascendancy
+# https://winchester-ascendancy.com/robots.txt
+
+User-agent: *
+Allow: /
+
+# Pages importantes à indexer
+Allow: /chests
+Allow: /
+
+# Pages à éviter (privées)
+Disallow: /login
+Disallow: /admin
+
+# Sitemap
+Sitemap: https://winchester-ascendancy.com/sitemap.xml

@@ -1,0 +1,27 @@
+{
+  "name": "dune-frontend",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "PORT=3000 HOST=0.0.0.0 nuxt dev",
+    "build": "nuxt build",
+    "start": "PORT=3000 HOST=0.0.0.0 nuxt start"
+  },
+  "dependencies": {
+    "@iconify-json/heroicons": "^1.2.2",
+    "@iconify-json/lucide": "^1.2.65",
+    "@iconify-json/mdi": "^1.2.3",
+    "@iconify-json/simple-icons": "^1.2.49",
+    "@nuxt/ui": "^3.3.2",
+    "date-fns": "^4.1.0",
+    "nuxt": "^3.12.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^6.14.0",
+    "@tailwindcss/postcss": "^4.1.12",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.12"
+  }
+}
