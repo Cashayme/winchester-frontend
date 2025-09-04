@@ -16,7 +16,7 @@ export default defineNuxtRouteMiddleware(async (to, from) => {
     console.log('🔐 Vérification de l\'authentification pour:', to.path)
 
     // Configuration API
-    const apiBase = 'http://localhost:4000/api'
+    const apiBase = 'https://backend.winchester-ascendancy.com/api'
 
     // Vérifier la session utilisateur
     const authResponse = await fetch(`${apiBase}/auth/me`, {

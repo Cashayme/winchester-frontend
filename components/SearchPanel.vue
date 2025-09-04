@@ -147,7 +147,7 @@ const selectedQuantity = ref(1)
 const selectedItemPreview = ref<any>(null)
 
 // Configuration API simplifiée pour Docker
-const apiBase = 'http://localhost:4000/api'
+const apiBase = 'https://backend.winchester-ascendancy.com/api'
 const imagesBase = 'http://localhost:4000/images'
 
 function debounce<T extends (...args: any[]) => any>(fn: T, ms = 150) {

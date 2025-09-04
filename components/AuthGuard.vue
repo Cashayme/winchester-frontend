@@ -151,7 +151,7 @@ const hasAccess = ref<boolean>(false)
 const loading = ref<boolean>(true) // Toujours commencer par true pour éviter le flash
 const sessionExpiry = ref<Date | null>(null)
 // Configuration API simplifiée pour Docker
-const apiBase = 'http://localhost:4000/api'
+const apiBase = 'https://backend.winchester-ascendancy.com/api'
 
 // Fonction pour vérifier l'état de la session
 async function checkSession() {

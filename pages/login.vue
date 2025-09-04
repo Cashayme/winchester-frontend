@@ -368,7 +368,7 @@ const errorMessage = computed(() => {
 
 // Utilise le proxy Nuxt pour partager les cookies de session
 // Configuration API simplifiée pour Docker
-const apiBase = 'http://localhost:4000/api'
+const apiBase = 'https://backend.winchester-ascendancy.com/api'
 
 // État d'authentification
 const user = ref(null)

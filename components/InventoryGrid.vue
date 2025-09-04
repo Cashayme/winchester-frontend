@@ -429,7 +429,7 @@ defineExpose({
 })
 
 // Configuration API simplifiée pour Docker
-const apiBase = 'http://localhost:4000/api'
+const apiBase = 'https://backend.winchester-ascendancy.com/api'
 const imagesBase = 'http://localhost:4000/images'
 
 // Système de suivi des nouveaux items pour l'animation

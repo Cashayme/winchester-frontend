@@ -316,7 +316,7 @@ import { ref, onMounted } from 'vue'
 import AppHeader from '~/components/AppHeader.vue'
 
 // Configuration API
-const apiBase = 'http://localhost:4000/api'
+const apiBase = 'https://backend.winchester-ascendancy.com/api'
 
 // État
 const loading = ref(false)

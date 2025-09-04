@@ -290,7 +290,7 @@ const inventoryGridRef = ref<InstanceType<typeof InventoryGrid> | null>(null)
 
 // Configuration API simplifiée pour Docker
 // Toujours utiliser localhost:4000 car le backend est exposé sur l'hôte
-const apiBase = 'http://localhost:4000/api'
+const apiBase = 'https://backend.winchester-ascendancy.com/api'
 const imagesBase = 'http://localhost:4000/images'
 
 // Debug: Afficher la configuration API
